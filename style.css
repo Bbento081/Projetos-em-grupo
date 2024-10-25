@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #020617;
+  font-size: 1rem;
+  font-family: sans-serif;
+  color: white;
+  flex-wrap: wrap;
+  
+  overflow-x: hidden;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  padding: 19px;
+  display: flex;
+  flex-direction: column;
+  background-color: #0f172a;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.form {
+  width: 100%;
+  gap: 1rem;
+  max-width: 25rem;
+  padding: 25px;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  
+  border: 1px solid #1e293b;
+}
+
+input {
+  padding: 0.8rem;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #4b4769;
+  border-radius: 0.4rem;
+  transition: transform 0.3s;
+  color: white;
+
+  flex: 1;
+}
+
+
+input:focus {
+  border: 1px solid #1B03A3;
+  transform: scale(1.05);
+  
+}
+
+button {
+  background-color: #11336473;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  padding: 1rem;
+  border: none;
+  color: white;
+  opacity: 0.8;
+  transition: 0.1s linear;
+  font-size: 15px;
+}
+
+#loginBtn{
+    transition: transform 0.3s;
+}
+#loginBtn:hover{
+  opacity: 1;
+  transform: scale(0.99);
+}
+
+.flex {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.absolute {
+  position: absolute;
+  right: 0;
+  background-color: transparent;
+}

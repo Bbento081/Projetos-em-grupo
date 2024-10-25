@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projetos</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/b39fec1a71.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+      <form class="form">
+        <h1>Login</h1>
+        <label for="adress">
+        <span>e-mail</label>
+          <input
+            type="email"
+            name="email"
+            id="adress"
+            placeholder="e-mail"
+            required
+            autocomplete="off"
+          />
+
+        </label>
+
+        <label for="passwd">
+            <span>
+                Senha
+            </label>
+            <div class="flex">
+                <input
+                type="password"
+                name="senha"
+                id="passwd"
+                placeholder="password"
+                required
+                autocomplete="off"
+                />
+                
+                <button class="absolute" type="button">
+                    <i class="fa-regular fa-eye"></i>
+                </button>
+            </div>
+        </label>
+
+        <div>
+          <input type="checkbox" name="lembrar" id="remem" />
+          <label for="lembrar">Lembrar-me</label>
+        </div>
+
+        <button id="loginBtn">Entrar</button>
+
+        <div id="forgo">Esqueceu sua senha ? <a href="">Clique aqui</a></div>
+      </form>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
